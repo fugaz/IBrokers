@@ -106,7 +106,7 @@ function (conn, Contract, tickGenerics='100,101,104,106,165,221,225,236',
 
     if(snapshot == '1' && missing(tickGenerics)) tickGenerics <- ''
   
-    VERSION <- "11"
+    VERSION <- "163"
  
     fullSnapshot <- data.frame()
     symbols. <- NULL
